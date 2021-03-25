@@ -11,7 +11,9 @@
 <body>
     <div class="form-group">
         <label for="username">Username</label>
-        <input class="form-control" placeholder="Username" name="username" type="text">
+        <input class="form-control" placeholder="Username" name="txtusername" type="text">
+        <label for="username">Password</label>
+        <input class="form-control" placeholder="Username" name="txtupassword" type="password">
     </div>
 </body>
 
