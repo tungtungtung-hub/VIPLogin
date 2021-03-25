@@ -14,6 +14,7 @@
         <input class="form-control" placeholder="Username" name="txtusername" type="text">
         <label for="username">Password</label>
         <input class="form-control" placeholder="Username" name="txtupassword" type="password">
+        <button type="submit" class="btnLogin" id="btnLogin">Button</button>
     </div>
 </body>
 
