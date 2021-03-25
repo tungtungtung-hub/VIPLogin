@@ -11,11 +11,12 @@
 <body>
     <div class="form-group">
         <label for="username">Username</label>
-        <input class="form-control" placeholder="Username" name="txtusername" type="text">
+        <input class="form-control" placeholder="Username" name="txtusername" id="txtusername" type="text">
         <label for="username">Password</label>
-        <input class="form-control" placeholder="Username" name="txtupassword" type="password">
-        <button type="submit" class="btnLogin" id="btnLogin">Button</button>
+        <input class="form-control" placeholder="Password" name="txtupassword" id="txtpass" type="password">
+        <button type="submit" class="btnLogin" id="btnLogin" onclick="login">Button</button>
     </div>
-</body>
 
+    <script src="main.js"></script>
+</body>
 </html>
