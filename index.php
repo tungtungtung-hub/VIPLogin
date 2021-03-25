@@ -14,9 +14,10 @@
         <input class="form-control" placeholder="Username" name="txtusername" id="txtusername" type="text">
         <label for="username">Password</label>
         <input class="form-control" placeholder="Password" name="txtupassword" id="txtpass" type="password">
-        <button type="submit" class="btnLogin" id="btnLogin" onclick="login">Button</button>
+        <button type="submit" class="btnLogin" id="btnLogin" onclick="login()">Button</button>
     </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
